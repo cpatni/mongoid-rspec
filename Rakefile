@@ -4,15 +4,15 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "mongoid-rspec"
+    gem.name = "mongoid_rspec_ign"
     gem.summary = %Q{RSpec matchers for Mongoid}
     gem.description = %Q{RSpec matches for Mongoid models, including association and validation matchers}
     gem.email = "evansagge@gmail.com"
     gem.homepage = "http://github.com/evansagge/mongoid-rspec"
     gem.authors = ["Evan Sagge"]
-    gem.add_dependency "mongoid", "2.0.0.beta4"
-    gem.add_dependency "bson_ext", "0.20.1"    
-    gem.add_dependency "rspec-rails", ">= 2.0.0.beta.7"      
+    gem.add_dependency "mongoid", ">= 2.0.0.beta6"
+    gem.add_dependency "bson_ext", ">= 1.0.1"    
+    gem.add_dependency "rspec-rails", ">= 2.0.0.beta.8"      
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
