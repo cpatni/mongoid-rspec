@@ -37,6 +37,7 @@ Gem::Specification.new do |s|
      "lib/matchers/validations/uniqueness_of.rb",
      "lib/mongoid-rspec.rb",
      "mongoid-rspec.gemspec",
+     "mongoid_rspec_ign.gemspec",
      "spec/models/article.rb",
      "spec/models/comment.rb",
      "spec/models/profile.rb",
